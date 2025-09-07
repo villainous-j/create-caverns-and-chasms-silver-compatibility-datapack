@@ -1,0 +1,25 @@
+{
+  "type": "create:splashing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "caverns_and_chasms"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "create:crushed_raw_silver"
+    }
+  ],
+  "results": [
+    {
+      "count": 9,
+      "item": "caverns_and_chasms:silver_nugget"
+    },
+    {
+      "chance": 0.75,
+      "count": 3,
+      "item": "minecraft:redstone"
+    }
+  ]
+}
